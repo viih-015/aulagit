@@ -1,0 +1,73 @@
+ligar led vermelho
+ esperar o tempo do vermelho 5s
+desligar led vermelho #
+ligar led verde
+esperar o tempo do verde 3s
+desligar led verde 
+ligar led amarelo
+esperar o tempo do led amarelo 2s
+desligar led amarelo
+digitalwrite (pimledeverde, HIGH)
+#define pinledverde11
+#define pinledamarelo12
+#define tempoverde3000
+#define tempovermelho5000
+
+void setup()
+{
+
+
+pinMODE(pinledverde, UOTPUT);
+
+pinmode (pinledvermelho, OUTPUT);
+
+
+
+} //fim do setup
+
+
+/*
+nome: vitoria aparecida de jesus costa
+data:20/02/2025
+
+*/
+
+#define pinLedVermelho01 13
+#define pinLedAmarelo01 12
+#define pinLedVerde01 11
+
+#define pinLedVermelho02 4
+#define pinLedAmarelo02 3
+#define pinLedVerde02 2
+
+
+#define tempoligadodoVermelho 5000
+#define tempoligadoAmarelo 2000
+#define tempoligadoVerde 3000
+
+void setup()
+{
+
+pinMode (pinLedVermelho01,OUTPUT);
+pinMode (pinLedAmarelo01, OUTPUT);
+pinMode (pinLedVerde01, OUTPUT);
+}
+
+void loop()
+{
+  
+}
+
+digitalwrite(pinledreed, HIGH);
+delay (tempoligadored);
+digitalWrite (pinLedred, LOW);
+
+
+digitalwrite(pinLed, HIGH);
+delay(tempoligadoreend);
+digitalwrite(pinledreen, LOW);
+
+digitalWrite (pinledyellow, HIGH);
+delay (tempoligadoyellow;
+digitalwrite (pinledyellow, LOW);      
+
